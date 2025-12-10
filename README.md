@@ -27,9 +27,15 @@
 - 설정 (Cell 3 참고):
   - Uniform node selection  
   - 3 종류의 flow size  
-  - Fixed interarrival time 
+  - Fixed interarrival time
+ 
+### `flows_output_64_uniform.csv`
+- 위의 flows data csv 파일  
 
 ***
 
 ### `DCN3_traf.ipynb`
 - 논문 파라미터 + 현재 topology 사용하여 flow generation 수행
+
+### `flows_output_DCN3.csv`
+- 위의 flows data csv 파일
