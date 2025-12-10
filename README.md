@@ -1,23 +1,35 @@
-# traf
+# Traf 관련 파일 정리
 
+### `additional_wireless_links_rev.m`
+- MATLAB 코드 수정본  
+- Adjacency Matrix(Topology)만 저장하도록 구성
 
-additional_wireless_links_rev.m
--> matlab 수정
--> adj matrix(topology)만 저장
+---
 
-graph_topologies_only.mat
--> matlab에서 저장한 adj mat
+### `graph_topologies_only.mat`
+- MATLAB에서 생성한 Adjacency Matrix 저장 파일
 
-graph_topology_test.ipynb
--> 저장된 adj mat 확인
+---
 
-trafy_test.ipynb
--> trafy 기능 테스트
--> https://trafpy.readthedocs.io/en/latest/tutorial_generator.html
+### `graph_topology_test.ipynb`
+- 저장된 adjacency matrix 확인용 Jupyter Notebook
 
-flows_example.ipynb
--> traf 의 flow generation 시험
--> uniform node, 3 flow size, fixed interarrival time (cell 3)
+---
 
-DCN3_traf.ipynb
--> 논문의 parameter와 우리 topology로 flow generation
+### `trafy_test.ipynb`
+- TrafPy 기능 테스트 Notebook  
+- 참고 문서: https://trafpy.readthedocs.io/en/latest/tutorial_generator.html
+
+---
+
+### `flows_example.ipynb`
+- Traf 기반 flow generation 실험 Notebook  
+- 설정 (Cell 3 참고):
+  - Uniform node selection  
+  - 3 종류의 flow size  
+  - Fixed interarrival time 
+
+---
+
+### `DCN3_traf.ipynb`
+- 논문 파라미터 + 현재 topology 사용하여 flow generation 수행
